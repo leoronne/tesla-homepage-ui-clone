@@ -31,9 +31,6 @@
   <img src="src\assets\img\banner.png"/>
 </p>
 
-<br>
-
-##
 
 ## Project :star2:
 
