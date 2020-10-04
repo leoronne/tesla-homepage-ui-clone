@@ -35,8 +35,6 @@
 
 ##
 
-<br>
-
 ## Project :star2:
 
 This repo contains an UI clone from Tesla homepage.
