@@ -15,13 +15,13 @@ const ModelsWrapper: React.FC = ({ children }) => {
     setRegisteredModels(state => [...state, { ...model }]);
   }, []);
 
-  const unregisterModel = useCallback((modelName: string) => {
-    setRegisteredModels(state => state.filter(model => model.modelName !== modelName));
+  const unregisterModel = useCallback((modelId: string) => {
+    setRegisteredModels(state => state.filter(model => model.modelId !== modelId));
   }, []);
 
   const getModelByName = useCallback(
-    (modelName: string) => {
-      return registeredModels.find(item => item.modelName === modelName) || null;
+    (modelId: string) => {
+      return registeredModels.find(item => item.modelId === modelId) || null;
     },
     [registeredModels]
   );
@@ -39,7 +39,7 @@ const ModelsWrapper: React.FC = ({ children }) => {
       <Container ref={wrapperRef}>
         <OverlaysRoot>
           {registeredModels.map(item => (
-            <ModelOverlay key={item.modelName} model={item}>
+            <ModelOverlay key={item.modelId} model={item}>
               {item.overlayNode}
             </ModelOverlay>
           ))}

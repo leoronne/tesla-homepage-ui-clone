@@ -25,7 +25,7 @@ export const Container = styled(motion.footer)`
       font-size: 14px;
 
       &.copyright {
-        font-size: 10px;
+        font-size: 11px;
         color: var(--placeholder-color);
       }
 

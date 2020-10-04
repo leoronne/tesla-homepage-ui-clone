@@ -10,7 +10,6 @@ import models from './ModelsList';
 import { Container, Spacer } from './styles';
 
 const Page: React.FC = () => {
-
   return (
     <Container>
       <ModelsWrapper>
@@ -20,14 +19,17 @@ const Page: React.FC = () => {
               key={model.id}
               className="colored"
               modelName={model.title}
+              modelId={model.id}
+              background={{
+                desktop: model.background,
+                mobile: model.backgroundMobile,
+              }}
               overlayNode={(
                 <DefaultOverlayContent
                   label={model.title}
                   Description={model.Description}
                   button1={{ text: model.text1, link: model.link1 }}
                   button2={{ text: model.text2, link: model.link2 }}
-                  background={model.background}
-                  backgroundMobile={model.backgroundMobile}
                 />
               )}
             />

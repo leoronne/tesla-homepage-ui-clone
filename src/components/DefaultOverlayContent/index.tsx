@@ -13,13 +13,11 @@ interface Props {
     text: string;
     link: string;
   };
-  background: string;
-  backgroundMobile: string;
 }
 
-const DefaultOverlayContent: React.FC<Props> = ({ label, Description, button1, button2, background, backgroundMobile }) => {
+const DefaultOverlayContent: React.FC<Props> = ({ label, Description, button1, button2 }) => {
   return (
-    <Container background={background} backgroundMobile={backgroundMobile}>
+    <Container>
       <Heading>
         <h1>{label}</h1>
         <h2>{Description}</h2>

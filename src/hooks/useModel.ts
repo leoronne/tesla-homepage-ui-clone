@@ -5,16 +5,16 @@ import ModelsContext from './ModelsContext';
 import { CarModel } from './index';
 
 const useModel = (
-  modelName: string
+  modelId: string
 ): {
   registerModel: (model: CarModel) => void;
   getModel: () => CarModel | null;
 } => {
   const { registerModel, unregisterModel, getModelByName } = React.useContext(ModelsContext);
 
-  useEffect(() => () => unregisterModel(modelName), [modelName, unregisterModel]);
+  useEffect(() => () => unregisterModel(modelId), [modelId, unregisterModel]);
 
-  const getModel = useCallback(() => getModelByName(modelName), [getModelByName, modelName]);
+  const getModel = useCallback(() => getModelByName(modelId), [getModelByName, modelId]);
 
   return {
     registerModel,

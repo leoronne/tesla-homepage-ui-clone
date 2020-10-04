@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { LoaderSpinner } from './components';
+import LoaderSpinner from './components/LoaderSpinner';
 
 import App from './App';
 

@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     scroll-behavior: smooth;
     outline: none !important;
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
   }
 
   html, body, #root {

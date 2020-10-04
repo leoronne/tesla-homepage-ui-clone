@@ -6,7 +6,7 @@ export { default as useModel } from './useModel';
 export { default as ModelsContext } from './ModelsContext';
 
 export interface CarModel {
-  modelName: string;
+  modelId: string;
   overlayNode: ReactNode;
   sectionRef: React.RefObject<HTMLElement>;
 }

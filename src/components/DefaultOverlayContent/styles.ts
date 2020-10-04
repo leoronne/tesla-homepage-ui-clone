@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div<{ background: string; backgroundMobile: string }>`
-  background: ${props => (props.backgroundMobile ? `url(${props.backgroundMobile})` : '')} no-repeat center;
-  background-size: cover;
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,11 +8,6 @@ export const Container = styled.div<{ background: string; backgroundMobile: stri
 
   width: 100%;
   padding: 0 50px;
-
-  @media (min-width: 600px) {
-    background: ${props => (props.background ? `url(${props.background})` : '')} no-repeat center;
-    background-size: cover;
-  }
 `;
 
 export const Heading = styled.div`

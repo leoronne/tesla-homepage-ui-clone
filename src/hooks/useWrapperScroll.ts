@@ -26,7 +26,6 @@ const useWrapperScroll = (): {
           scrollYProgress.set(scrollTop / fullScroll);
         }
       };
-
       wrapperRef.current.addEventListener('scroll', updateScrollValue);
 
       return () => wrapperRef?.current?.removeEventListener('scroll', updateScrollValue);

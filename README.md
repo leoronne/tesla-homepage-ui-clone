@@ -28,14 +28,10 @@
 <br>
 
 <p align="center">
-  <img src="src\assets\img\tesla-1.gif"/>
+  <img src="src\assets\img\banner.png"/>
 </p>
 
 <br>
-
-<p align="center">
-  <img src="src\assets\img\tesla-2.gif"/>
-</p>
 
 ##
 
@@ -48,6 +44,18 @@ This repo contains an UI clone from Tesla homepage.
 <br>
 
 Deployed [here](https://tesla-homepage-ui-clone.web.app/).
+
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-1.gif"/>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="src\assets\img\tesla-2.gif"/>
+</p>
 
 <br>
 

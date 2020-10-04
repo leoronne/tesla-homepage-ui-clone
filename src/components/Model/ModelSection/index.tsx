@@ -6,26 +6,31 @@ import { useModel } from '../../../hooks';
 import { Container } from './styles';
 
 interface Props extends React.HTMLAttributes<HTMLDivElement> {
+  modelId: string;
   modelName: string;
   overlayNode: React.ReactNode;
+  background: {
+    desktop: string;
+    mobile: string;
+  };
 }
 
-const ModelSection: React.FC<Props> = ({ modelName, overlayNode, children, ...props }) => {
+const ModelSection: React.FC<Props> = ({ modelName, background, modelId, overlayNode, children, ...props }) => {
   const { registerModel } = useModel(modelName);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (ref?.current) {
       registerModel({
-        modelName,
+        modelId,
         overlayNode,
         sectionRef: ref,
       });
     }
-  }, [children, modelName, overlayNode, registerModel]);
+  }, [children, modelId, overlayNode, registerModel]);
 
   return (
-    <Container ref={ref} {...props}>
+    <Container background={background} ref={ref} {...props}>
       {children}
     </Container>
   );

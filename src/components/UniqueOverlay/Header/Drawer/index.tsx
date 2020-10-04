@@ -84,7 +84,7 @@ const TemporaryDrawer: React.FC = () => {
       >
         <List>
           {items.map(item => (
-            <>
+            <div key={item.text}>
               <ListItem button key={item.text}>
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                   <ListItemText primary={item.text} />
@@ -92,7 +92,7 @@ const TemporaryDrawer: React.FC = () => {
               </ListItem>
 
               <Divider />
-            </>
+            </div>
           ))}
         </List>
       </div>

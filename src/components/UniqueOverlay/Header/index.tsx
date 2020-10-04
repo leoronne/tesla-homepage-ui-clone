@@ -2,7 +2,7 @@ import React from 'react';
 
 import Drawer from './Drawer';
 
-import { Container, HeaderLeft, HeaderCenter, HeaderRight, Logo } from './styles';
+import { Container, HeaderLeft, HeaderCenter, HeaderRight, Logo, GitHubIcon } from './styles';
 
 const Header: React.FC = () => {
   const headerLinks = {
@@ -47,7 +47,15 @@ const Header: React.FC = () => {
   return (
     <Container>
       <HeaderLeft>
+
         <Logo />
+
+        <span>
+          UI Clone
+          <a href="https://github.com/leoronne/tesla-homepage-ui-clone" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+          </a>
+        </span>
       </HeaderLeft>
 
       <HeaderCenter>

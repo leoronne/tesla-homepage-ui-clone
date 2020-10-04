@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { LogoSVG } from '../IconSVG';
+import { LogoSVG, GitHubSVG } from '../IconSVG';
 
 export const Container = styled.header`
   position: fixed;
@@ -49,6 +49,30 @@ export const Container = styled.header`
 `;
 
 export const HeaderLeft = styled.div`
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      opacity: 0.5;
+      transition: opacity var(--transition);
+
+      &:hover {
+        opacity: 1;
+        transition: opacity var(--transition);
+      }
+    }
+  }
+
   @media (min-width: 600px) {
     width: 250px;
   }
@@ -88,4 +112,9 @@ export const HeaderCenter = styled.div`
 export const Logo = styled(LogoSVG)`
   width: 100px;
   cursor: pointer;
+`;
+
+export const GitHubIcon = styled(GitHubSVG)`
+  width: 15px;
+  height: 15px;
 `;

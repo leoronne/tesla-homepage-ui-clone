@@ -7,8 +7,8 @@ interface ModelsContext {
   wrapperRef: React.RefObject<HTMLElement>;
   registeredModels: CarModel[];
   registerModel: (model: CarModel) => void;
-  unregisterModel: (modelName: string) => void;
-  getModelByName: (modelName: string) => CarModel | null;
+  unregisterModel: (modelId: string) => void;
+  getModelByName: (modelId: string) => CarModel | null;
 }
 
 // Export with default values
