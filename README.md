@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src\assets\img\transparentBanner.png" width="70%"/>
+  <img src="src\assets\img\transparentBanner.png" width="50%"/>
 </p>
 
 <br>
@@ -18,19 +18,18 @@
   <a href="#project-star2">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs-rocket">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installation-wrench">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#test-heavy_check_mark">Test</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#start-on">Start</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#contributing-">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license-memo">License</a>
 </p>
 
 ##
 
-<br>
-
 <p align="center">
   <img src="src\assets\img\banner.png"/>
 </p>
 
+<br>
 
 ## Project :star2:
 
@@ -38,7 +37,7 @@ This repo contains an UI clone from Tesla homepage.
 
 <br>
 
-Deployed [here](https://tesla-homepage-ui-clone.web.app/).
+Deployed [here](https://tesla.ui-clone.ronne.dev/).
 
 <br>
 
@@ -58,17 +57,20 @@ Deployed [here](https://tesla-homepage-ui-clone.web.app/).
 
 - [x] [ReactJS](https://reactjs.org);
 - [x] [TypeScript](https://www.typescriptlang.org/);
+- [x] [Framer Motion](https://www.framer.com/motion/);
 - [x] [Styled Components](https://styled-components.com/).
 
 <br>
 
 ## Installation :wrench:
 
+First you need to clone the project using `git clone https://github.com/leoronne/tesla-homepage-ui-clone.git`.
+
 You can install the application using `npm install` or `yarn install` on the root dir.
 
 <br>
 
-## Test :heavy_check_mark:
+## Start :on:
 
 To start the application interface just run `npm start` or `yarn start` on the root dir.
 

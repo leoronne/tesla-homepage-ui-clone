@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BurgerSVG, CloseSVG } from '../../IconSVG';
+import { BurgerSVG, CloseSVG } from '../../../../styles/Icons';
 
 export const Burger = styled(BurgerSVG)`
   width: 24px;

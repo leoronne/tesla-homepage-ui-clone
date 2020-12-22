@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { LogoSVG, GitHubSVG } from '../IconSVG';
+import { LogoSVG, GitHubSVG } from '../../../styles/Icons';
 
 export const Container = styled.header`
   position: fixed;
