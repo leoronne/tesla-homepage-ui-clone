@@ -86,7 +86,7 @@ Please read [CONTRIBUTING](https://github.com/leoronne/tesla-homepage-ui-clone/b
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](https://github.com/leoronne/tesla-homepage-ui-clone/blob/master/LICENSE)**
+- **[MIT license](https://github.com/leoronne/tesla-homepage-ui-clone/blob/master/LICENSE)**;
 - Copyright 2020 © <a href="https://github.com/leoronne" target="_blank">Leonardo Ronne</a>.
 
 ##
