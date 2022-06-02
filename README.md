@@ -33,9 +33,7 @@
 
 ## Project :star2:
 
-This repo contains an UI clone from Tesla homepage.
-
-<br>
+This project was part of an UI Clone challenge, the idea was to replicate Tesla homepage using ReactJS and framer-motion, the last one intended to mimic Tesla's animations when scrolling through the page sections.
 
 Deployed [here](https://tesla.ui-clone.ronne.dev/).
 
